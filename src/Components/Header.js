@@ -5,18 +5,16 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 export default function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar.Brand href="Header.js" className="brand-name">Ashutosh Cartoon Box Udhyog</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-    <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <Nav.Link href="#deets">More details</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-                Good stuff
-            </Nav.Link>
-        </Nav>
+    <Navbar.Collapse className="nav-position" id="responsive-navbar-nav">
+      <Nav>
+        <Nav.Link href="About.js">About Us</Nav.Link>
+        <Nav.Link href="Products.js">Our Product</Nav.Link>
+        <Nav.Link href="Gallery.js">Gallery</Nav.Link>
+        <Nav.Link eventKey={2} href="Contact.js">Contact Us</Nav.Link>
+      </Nav>
     </Navbar.Collapse>
-</Navbar>
+    </Navbar>
   );
 }
