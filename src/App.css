@@ -1,11 +1,33 @@
 .nav-position{
   justify-content: flex-end;
   padding-right: 150px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .navbar-dark .navbar-brand{
   padding-left: 150px;
-  font-size: 30px;
+  font-size: 28px;
   color: #888888;
+}
+
+
+.footer-design{
+  background-color: #888888;
+}
+
+.sliding-name{
+  text-align:center;
+  margin-top: -200PX;
+  font-size: 70px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+}
+h1{
+  color:black;
+}
+
+img{
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
 }
