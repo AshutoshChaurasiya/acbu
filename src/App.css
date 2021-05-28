@@ -25,9 +25,20 @@
 h1{
   color:black;
 }
+h2{
+  color: #888888;
+}
+
+h2:hover{
+  color: #fff;
+}
 
 img{
   width: 400px;
   height: 400px;
   border-radius: 2px;
+}
+
+.crd-img{
+  margin-top: -90px;
 }

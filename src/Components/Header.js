@@ -5,7 +5,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 export default function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
-    <Navbar.Brand href="Header.js" className="brand-name">Ashutosh Cartoon Box Udhyog</Navbar.Brand>
+    <Navbar.Brand href="Header.js" className="brand-name"><h2>Ashutosh Cartoon Box Udhyog</h2></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse className="nav-position" id="responsive-navbar-nav">
       <Nav>
