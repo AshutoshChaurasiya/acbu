@@ -3,10 +3,12 @@ import React from 'react'
 export default function About() {
     return (
         <div>
-            <div>jhghg</div>
+            <p className="about-us">About Us</p>
             <div>
-                <p>
-                    
+                
+            </div>
+            <div>
+                <p>   
                 </p>
             </div>
             

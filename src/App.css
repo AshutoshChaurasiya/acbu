@@ -42,3 +42,10 @@ img{
 .crd-img{
   margin-top: -90px;
 }
+
+.about-us{
+  text-align: center;
+  font-size: 40px;
+  font-style: oblique;
+  text-decoration: wavy;
+}
